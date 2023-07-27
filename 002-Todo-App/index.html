@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+    <main id="app">
+      <fieldset>
+        <legend>Add Your Todo Item</legend>
+        <form @submit.prevent="addTodo">
+        <label for="newTodo">New Todo : </label>
+        <input v-model="newTodo" type="text" name="newTodo" id="newTodo" value="">
+        <button type="submit" name="button">Add</button>
+      </form>
+      <button @click="allDone" type="button" name="button">All Done</button>
+    </fieldset>
+      
+      <fieldset>
+        <legend>Todo List</legend>
+    
+        <div v-for="todo in todos">
+          <input type="checkbox" v-model="todo.done">
+          <label :class="{ done: todo.done }">{{todo.title}}</label>
+          <button @click="removeTodo(todo)" type="button" name="button">Remove</button>
+        </div>
+    </fieldset>
+
+      
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
