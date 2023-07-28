@@ -14,6 +14,16 @@ import DocumentationIcon from './icons/IconDocumentation.vue'
     <a href="#" target="_blank" rel="noopener">this</a>
      list
   </WelcomeItem>
+  
+  <WelcomeItem>
+    <template #icon>
+      <DocumentationIcon />
+    </template>
+    <template #heading>002-Todo-App</template>
+    Todo App created with Vue
+    <a href="#" target="_blank" rel="noopener">this</a>
+     list
+  </WelcomeItem>
 
   
 </template>

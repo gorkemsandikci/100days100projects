@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Kullanarak Veri Çekme</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <h1>{{ title }}</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Title</th>
+          <th>Completed</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="item in items" :key="item.id">
+          <td>{{ item.id }}</td>
+          <td>{{ item.title }}</td>
+          <td>{{ item.completed }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Vue.js CDN -->
+  <script src="https://unpkg.com/vue@2.6.14/dist/vue.js"></script>
+
+  <!-- Main JavaScript Dosyası -->
+  <script src="main.js"></script>
+</body>
+</html>
