@@ -8,10 +8,18 @@ defineProps<{
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
-      Here are all the projects created in this challenge with
-      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
+      
+    <i> 
+      <a href="https://github.com/gorkemsandikci/100days100projects" target="_blank" rel="noopener">Github Repository</a>
+    </i> has all the projects created in this challenge.
     </h3>
+
+    <h4>
+      <a href="https://www.javascript.com" target="_blank" rel="noopener">JavaScript</a> +
+      <a href="https://www.typescriptlang.org" target="_blank" rel="noopener">TypeScript</a> +
+      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
+      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>
+    </h4>
 
     <i>For back to website click 
       <a href="https://gorkemnet.com/" target="_blank" rel="noopener">Here</a>
