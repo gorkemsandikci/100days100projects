@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Survey</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+</head>
+<body>
+  <div id="app">
+    <h1>Simple Survey</h1>
+    <div>
+      <label>Name:</label>
+      <input v-model="name" />
+    </div>
+    <div>
+      <label>Age:</label>
+      <input v-model.number="age" type="number" />
+    </div>
+    <div>
+      <label>Favorite Programming Language:</label>
+      <select v-model="favoriteLanguage">
+        <option value="JavaScript">JavaScript</option>
+        <option value="Python">Python</option>
+        <option value="Java">Java</option>
+        <option value="C++">C++</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+    <button @click="submitSurvey">Submit</button>
+
+    <div v-if="submitted">
+      <h2>Survey Results:</h2>
+      <p><strong>Name:</strong> {{ name }}</p>
+      <p><strong>Age:</strong> {{ age }}</p>
+      <p><strong>Favorite Language:</strong> {{ favoriteLanguage }}</p>
+    </div>
+  </div>
+  
+  <!-- Main JavaScript Dosyası -->
+  <script src="main.js"></script>
+  
+</body>
+</html>
