@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vue Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <div class="calculator">
+      <div class="display">{{ result }}</div>
+      <div class="buttons">
+        <button v-for="btn in buttons" :key="btn" @click="handleButtonClick(btn)">
+          {{ btn }}
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vue.js CDN -->
+  <script src="https://unpkg.com/vue@2.6.14/dist/vue.js"></script>
+
+  <!-- Main JavaScript Dosyası -->
+  <script src="main.js"></script>
+  
+</body>
+</html>
