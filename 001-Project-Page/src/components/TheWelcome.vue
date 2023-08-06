@@ -93,4 +93,48 @@ import DocumentationIcon from './icons/IconDocumentation.vue'
     Check on <a href="https://github.com/gorkemsandikci/100days100projects/tree/main/008-One-Page-Website-With-Sections" target="_blank" rel="noopener">github</a>
   </WelcomeItem>
   
+  <WelcomeItem>
+    <template #icon>
+      <DocumentationIcon />
+    </template>
+    <template #heading>009-Survey-Form</template>
+    Survey form app with Vue.js
+    <a href="009-Survey-Form" target="_blank" rel="noopener">check here</a>
+    <br>
+    Check on <a href="https://github.com/gorkemsandikci/100days100projects/tree/main/009-Survey-Form" target="_blank" rel="noopener">github</a>
+  </WelcomeItem>
+  
+  <WelcomeItem>
+    <template #icon>
+      <DocumentationIcon />
+    </template>
+    <template #heading>010-Calculator</template>
+    Calculator app with Vue.js
+    <a href="010-Calculator" target="_blank" rel="noopener">check here</a>
+    <br>
+    Check on <a href="https://github.com/gorkemsandikci/100days100projects/tree/main/010-Calculator" target="_blank" rel="noopener">github</a>
+  </WelcomeItem>
+  
+  <WelcomeItem>
+    <template #icon>
+      <DocumentationIcon />
+    </template>
+    <template #heading>011-Dynamic-Background</template>
+    Dynamic Background color page with Vue.js. When you click anywhere change background color.
+    <a href="011-Dynamic-Background" target="_blank" rel="noopener">check here</a>
+    <br>
+    Check on <a href="https://github.com/gorkemsandikci/100days100projects/tree/main/011-Dynamic-Background" target="_blank" rel="noopener">github</a>
+  </WelcomeItem>
+
+  <WelcomeItem>
+    <template #icon>
+      <DocumentationIcon />
+    </template>
+    <template #heading>012-Blog-Detail-Page</template>
+    Simple Blog Detail Page with Vue.js.
+    <a href="012-Blog-Detail-Page" target="_blank" rel="noopener">check here</a>
+    <br>
+    Check on <a href="https://github.com/gorkemsandikci/100days100projects/tree/main/012-Dynamic-Background" target="_blank" rel="noopener">github</a>
+  </WelcomeItem>
+  
 </template>
