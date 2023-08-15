@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pinball Mechanics</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <div class="game">
+      <h1>Pinball Mechanics</h1>
+      <div class="road">
+        <div class="car" :style="{ left: carPosition + 'px' }"></div>
+        <div class="red-car" :style="{ left: carPositionRed + 'px' }"></div>
+        <div class="circle"></div>
+      </div>
+      <p>Puan: {{ score }}</p>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+  
+  <script src="main.js"></script>
+</body>
+</html>
