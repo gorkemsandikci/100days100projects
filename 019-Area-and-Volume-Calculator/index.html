@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alan ve Hacim Hesaplama Uygulaması</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <h1>Alan ve Hacim Hesaplama</h1>
+    <div class="unit-selector">
+      <label>Hesaplama Birimi:</label>
+      <select v-model="selectedUnit">
+        <option value="cm">cm</option>
+        <option value="m">m</option>
+      </select>
+    </div>
+    <div class="shape-selector">
+      <label>Şekil Seçin:</label>
+      <select v-model="selectedShape">
+        <option value="rectangle">Dikdörtgen</option>
+        <option value="circle">Daire</option>
+        <option value="cylinder">Silindir</option>
+      </select>
+    </div>
+    <div class="inputs">
+      <div v-if="selectedShape === 'rectangle'">
+        <label>Uzunluk ({{ selectedUnit }}):</label>
+        <input type="number" v-model="length">
+        <label>Genişlik ({{ selectedUnit }}):</label>
+        <input type="number" v-model="width">
+        <button @click="calculateRectangleArea">Alan Hesapla</button>
+        <p>Alan: {{ area }} {{ selectedUnit }}²</p>
+      </div>
+      <div v-else-if="selectedShape === 'circle'">
+        <label>Yarıçap ({{ selectedUnit }}):</label>
+        <input type="number" v-model="radius">
+        <button @click="calculateCircleArea">Alan Hesapla</button>
+        <p>Alan: {{ area }} {{ selectedUnit }}²</p>
+      </div>
+      <div v-else>
+        <label>Yarıçap ({{ selectedUnit }}):</label>
+        <input type="number" v-model="radiusCylinder">
+        <label>Yükseklik ({{ selectedUnit }}):</label>
+        <input type="number" v-model="heightCylinder">
+        <button @click="calculateCylinderVolume">Hacim Hesapla</button>
+        <p>Hacim: {{ volume }} {{ selectedUnit }}³</p>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
