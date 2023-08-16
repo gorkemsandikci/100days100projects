@@ -1,0 +1,58 @@
+body {
+  background-color: #1f1f1f;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#app {
+  display: flex;
+  width: 80%;
+  height: fit-content;
+  background-color: #333333;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar {
+  width: 30%;
+  background-color: #2f2f2f;
+  padding: 20px;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.command-button {
+  background-color: #ff6b6b;
+  color: #1f1f1f;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.command-button:hover {
+  background-color: #ff8f8f;
+}
+
+h3 {
+  color: #ff6b6b;
+}
+
+code {
+  background-color: #3f3f3f;
+  padding: 5px;
+  border-radius: 4px;
+  display: block;
+}
