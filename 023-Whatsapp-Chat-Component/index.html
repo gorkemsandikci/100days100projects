@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WhatsApp Tarzı Chat Uygulaması</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+</head>
+<body>
+  <div id="app">
+    <div class="side-bar">
+      <ul class="contact-list">
+        <li class="contact" v-for="contact in contacts" :key="contact.id" @click="selectContact(contact)">
+          <img :src="contact.avatar" alt="Contact Avatar">
+          {{ contact.name }}
+        </li>
+      </ul>
+    </div>
+    <div class="chat-box">
+      <div v-if="selectedContact">
+        <h2>{{ selectedContact.name }}</h2>
+        <div v-for="message in selectedContact.messages" :key="message.id" :class="['message', message.user ? 'user' : '']">
+          <div class="message-text" :class="message.user ? 'user' : ''">
+            {{ message.text }}
+          </div>
+        </div>
+        <input type="text" v-model="newMessage" @keyup.enter="sendMessage" placeholder="Mesajınızı yazın">
+      </div>
+      <div v-else>
+        <p>Kişi seçiniz.</p>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
