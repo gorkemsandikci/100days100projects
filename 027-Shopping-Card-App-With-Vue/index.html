@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart App with Vue.js and TypeScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Shopping Cart</h1>
+
+        <div>
+            <h2>Products</h2>
+            <ul>
+                <li v-for="(product, index) in products" :key="index">
+                    <span>{{ product.name }} - ${{ product.price }}</span>
+                    <button @click="addToCart(product)">Add to Cart</button>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>Cart</h2>
+            <ul>
+                <li v-for="(cartItem, index) in cart" :key="index">
+                    <span>{{ cartItem.product.name }} - ${{ cartItem.product.price }} x {{ cartItem.quantity }}</span>
+                    <button @click="removeFromCart(index)">Remove</button>
+                </li>
+            </ul>
+            <p class="total">Total: ${{ cartTotal }}</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
