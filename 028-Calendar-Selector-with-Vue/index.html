@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue.js Calendar Selection Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Calendar Selection Form</h1>
+
+        <form @submit.prevent="submitForm">
+            <label for="selectedDate">Select a Date:</label>
+            <div class="datepicker">
+                <input type="date" id="selectedDate" v-model="selectedDate">
+            </div>
+            <button type="submit">Select</button>
+        </form>
+
+        <p v-if="selectedDate">Selected Date: {{ selectedDate }}</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
