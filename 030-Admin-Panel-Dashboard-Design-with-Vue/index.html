@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue.js Dashboard Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <div class="header">
+            <h1>Dashboard</h1>
+        </div>
+        <div class="dashboard">
+            <div class="sidebar">
+                <nav>
+                    <ul>
+                        <li v-for="item in navigationItems" :key="item.id">{{ item.label }}</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="content">
+                <div class="stats">
+                    <div class="stat-item">
+                        <h2>Users</h2>
+                        <p>{{ stats.users }}</p>
+                    </div>
+                    <div class="stat-item">
+                        <h2>Orders</h2>
+                        <p>{{ stats.orders }}</p>
+                    </div>
+                    <div class="stat-item">
+                        <h2>Revenue</h2>
+                        <p>{{ stats.revenue }}</p>
+                    </div>
+                </div>
+                <div class="charts">
+                    <!-- Mockup chart image -->
+                    <img src="chart.png" alt="Chart">
+                </div>
+                <div class="messages">
+                    <h2>Last Messages</h2>
+                    <ul>
+                        <li v-for="message in lastMessages" :key="message.id">{{ message.text }}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; 2023 Dashboard Inc. All rights reserved.</p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
