@@ -17,11 +17,11 @@
 
 - If I can't complete the project for that day, I will add $5 to my bank account. At the end of 100 days, I will distribute all the money in the bank account to 5 people who follow me.
 
-- Adding a little bit of motivation for myself! 😉
+- Adding a little bit of motivation for myself!
 
 - In this post you'll be able to find a link to all of the projects that I'm going to create
 
-- Anyone is welcomed to join the challenge alongside me! I'm going to be available on our discord channel where you can come to share your progress or if you need any help along the way.
+- Anyone is welcomed to join the challenge alongside me! I'm going to be available on discord (#gorkemsandikci) where you can come to share your progress or if you need any help along the way.
 
 # 100 Günde 100 Proje
 
@@ -39,6 +39,6 @@
 
 - Kendime, kimseye uygulamak istemediğim bazı kurallar oluşturdum ama isterseniz aynısını yapmaktan çekinmeyin!
 - O gün için projeyi tamamlayamazsam banka hesabına 5$ ekleyeceğim. 100 gün sonunda banka hesabında biriken tüm parayı beni takip eden 5 kişiye dağıtacağım.
-- Kendime biraz motivasyon katıyorum! 😉
+- Kendime biraz motivasyon katıyorum!
 - Bu gönderide, oluşturacağım tüm projelere ait bir bağlantı bulabileceksiniz
-- Benimle birlikte meydan okumaya katılmak isteyen herkes davetlidir! İlerlemenizi paylaşmak için gelebileceğiniz veya 100 gün boyunca herhangi bir yardıma ihtiyacınız olursa discord kanalımızda olacağım.
+- Benimle birlikte meydan okumaya katılmak isteyen herkes davetlidir! İlerlemenizi paylaşmak için gelebileceğiniz veya 100 gün boyunca herhangi bir yardıma ihtiyacınız olursa discord kullanıcı adı #gorkemsandikci. 
