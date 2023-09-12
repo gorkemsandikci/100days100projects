@@ -12,7 +12,6 @@ const app = new Vue({
       }
     },
     mounted() {
-      // Saati ve tarihi güncellemek için her saniye updateTime() metodunu çağırıyoruz.
       this.updateTime();
       setInterval(this.updateTime, 1000);
     }

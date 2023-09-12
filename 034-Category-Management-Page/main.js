@@ -7,12 +7,10 @@ new Vue({
     methods: {
         addCategory() {
             if (this.newCategoryName.trim() === '') return;
-
             this.categories.push({
                 name: this.newCategoryName,
                 subcategories: [],
             });
-
             this.newCategoryName = '';
         },
         removeCategory(index) {
@@ -20,7 +18,6 @@ new Vue({
         },
         addSubcategory(parentIndex) {
             const categoryName = prompt('Subcategory Name:');
-
             if (categoryName) {
                 this.categories[parentIndex].subcategories.push({
                     name: categoryName,

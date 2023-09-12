@@ -11,19 +11,16 @@
 <div id="app">
     <div class="container">
         <h1 class="title">Category Management</h1>
-
         <div class="category-form">
             <input type="text" placeholder="Category Name" v-model="newCategoryName" @keydown.enter="addCategory">
             <button @click="addCategory">Add Category</button>
         </div>
-
         <div class="categories">
             <ul>
                 <li v-for="(category, index) in categories" :key="index">
                     <span>{{ category.name }}</span>
                     <button @click="addSubcategory(index)">Add Subcategory</button>
                     <button @click="removeCategory(index)">Delete Category</button>
-
                     <ul>
                         <li v-for="(subcategory, subIndex) in category.subcategories" :key="subIndex">
                             <span>{{ subcategory.name }}</span>

@@ -3,53 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hava Durumu Uygulaması</title>
+  <title>How is the Weather?</title>
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #121212;
-      color: #ffffff;
-    }
-
-    #app {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-
-    .weather-box {
-      width: 300px;
-      text-align: center;
-      padding: 20px;
-      border-radius: 10px;
-      background-color: #1f1f1f;
-      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-    }
-
-    .location {
-      font-size: 24px;
-      margin-bottom: 10px;
-    }
-
-    .temperature {
-      font-size: 36px;
-      margin-bottom: 20px;
-    }
-
-    .description {
-      font-size: 18px;
-    }
-
-    .dark-mode-toggle {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      cursor: pointer;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div id="app">
@@ -62,31 +18,6 @@
       </div>
     </div>
   </div>
-  <script>
-    new Vue({
-      el: '#app',
-      data: {
-        weatherData: {},
-        darkMode: true
-      },
-      methods: {
-        toggleDarkMode() {
-          this.darkMode = !this.darkMode;
-          const body = document.querySelector('body');
-          body.style.backgroundColor = this.darkMode ? '#121212' : '#ffffff';
-          body.style.color = this.darkMode ? '#ffffff' : '#000000';
-        },
-        async fetchWeatherData() {
-          const apiKey = '70ee55e3f0c112eb234513cc3e794699';
-          const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=istanbul&units=metric&appid=${apiKey}`);
-          const data = await response.json();
-          this.weatherData = data;
-        }
-      },
-      created() {
-        this.fetchWeatherData();
-      }
-    });
-  </script>
+  <script src="main.js"></script>
 </body>
 </html>

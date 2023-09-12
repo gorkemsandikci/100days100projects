@@ -1,16 +1,13 @@
-    /* Basit accordion stilleri */
     .accordion-header {
         cursor: pointer;
         background-color: #303030;
         padding: 10px;
       }
-  
       .accordion-content {
         display: none;
         background-color: #303030;
         padding: 10px;
       }
-  
       .show-content {
         display: flex;
       }

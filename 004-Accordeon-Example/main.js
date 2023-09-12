@@ -37,7 +37,6 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     });
   });
-
   document.addEventListener("DOMContentLoaded", function() {
     const appwatch = new Vue({
       el: '#app-watch',
