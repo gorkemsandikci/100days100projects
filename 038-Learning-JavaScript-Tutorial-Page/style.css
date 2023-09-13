@@ -1,0 +1,33 @@
+body {
+    background-color: black; 
+    color: white; 
+    font-family: Arial, sans-serif; 
+}
+
+.container {
+    background-color: rgba(192, 192, 192, 0.8); 
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.split {
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    padding-right: 10px;
+}
+
+.right {
+    width: 50%;
+    padding-left: 10px;
+}
+
+ul li {
+    border-bottom: 1px solid white; 
+    padding-bottom: 10px; 
+    margin-bottom: 10px;
+}
