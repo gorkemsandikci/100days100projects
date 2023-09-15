@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smooth Scroll Back To Top</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <nav class="sticky-nav">
+      <div class="navbar-container">
+        <div class="logo">Logo</div>
+        <div class="menu-icon" @click="toggleMobileNav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul :class="{ 'mobile-nav-open': isMobileNavOpen }"> <!-- isMobileNavOpen durumuna göre sınıfı ekliyoruz -->
+          <li><a @click="scrollToSection('section1')">Section 1</a></li>
+          <li><a @click="scrollToSection('section2')">Section 2</a></li>
+          <li><a @click="scrollToSection('section3')">Section 3</a></li>
+          <li><a @click="scrollToSection('section4')">Section 4</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="section1" class="section" style="background-image: url('../005-Slider-Pack/image.jpg');">
+      <h1>Section 1</h1>
+      <p>This is the first section of the one page website.</p>
+    </section>
+    <section id="section2" class="section" style="background-image: url('../005-Slider-Pack/image2.jpg');">
+      <h1>Section 2</h1>
+      <p>This is the second section of the one page website.</p>
+    </section>
+    <section id="section3" class="section" style="background-image: url('../005-Slider-Pack/image3.jpg');">
+      <h1>Section 3</h1>
+      <p>This is the third section of the one page website.</p>
+    </section>
+    <section id="section4" class="section" style="background-image: url('../005-Slider-Pack/image4.jpg');">
+      <h1>Section 4</h1>
+      <p>This is the fourth section of the one page website.</p>
+    </section>
+  </div>
+  <!-- Back To Top Button --> 
+  <a href="#" class="back-to-top">
+    <span class="material-icons">arrow_upward</span>
+  </a>
+  <script src="https://unpkg.com/vue@2.6.14/dist/vue.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
