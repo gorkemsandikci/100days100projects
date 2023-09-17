@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Travel Planner</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+</head>
+<body>
+  <div id="app">
+    <section class="section">
+      <div class="container">
+        <h1 class="title">Travel Planner</h1>
+        <div class="columns">
+          <div class="column">
+            <div class="field">
+              <label class="label">Date</label>
+              <div class="control">
+                <input type="date" class="input" v-model="newTrip.date">
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="field">
+              <label class="label">Destination</label>
+              <div class="control">
+                <input type="text" class="input" v-model="newTrip.destination">
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="field">
+              <label class="label">Notes</label>
+              <div class="control">
+                <textarea class="textarea" v-model="newTrip.notes"></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="field">
+              <div class="control">
+                <button class="button is-primary" @click="addTrip">Add</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box" v-for="(trip, index) in trips" :key="index">
+          <p><strong>Date:</strong> {{ trip.date }}</p>
+          <p><strong>Destination:</strong> {{ trip.destination }}</p>
+          <p><strong>Notes:</strong> {{ trip.notes }}</p>
+        </div>
+      </div>
+    </section>
+  </div>
+  <style>
+    html {
+        background-color: #000;
+        color: white;
+    }
+  </style>
+  <script src="main.js"></script>
+</body>
+</html>
