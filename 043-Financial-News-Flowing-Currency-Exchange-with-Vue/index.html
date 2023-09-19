@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Financial News and Currency Exchange</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+</head>
+<body>
+  <div id="app">
+    <section>
+      <h1 class="title">Financial News and Currency Exchange</h1>
+      <div class="container">
+        <div class="marquee-container">
+          <p class="marquee">{{ marqueeText }}</p>
+        </div>
+        <h2 class="subtitle">Currency Exchange Rates</h2>
+        <ul>
+          <li v-for="(currency, index) in currencies" :key="index">
+            <span :class="[currency.change > 0 ? 'increase' : (currency.change < 0 ? 'decrease' : 'unchanged')]">{{ currency.name }}: <span>{{ currency.rate }} ({{ currency.change }}%)</span></span>
+          </li>
+        </ul>
+        <h2 class="subtitle">News</h2>
+        <ul class="news-list">
+          <li class="news-item" v-for="(article, index) in articles" :key="index">
+            <a :href="article.link">{{ article.title }}</a>
+          </li>
+        </ul>
+        <h2 class="subtitle">Subtitle</h2>
+        <p>{{ subtitleText }}</p>
+      </div>
+    </section>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
