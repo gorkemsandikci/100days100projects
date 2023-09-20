@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Text to PDF with Vue.js</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.12/vue.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.4.1/jspdf.min.js"></script>
+</head>
+<body>
+  <div id="app">
+    <h1>Text to PDF</h1>
+    <div class="form-group">
+      <textarea class="form-control" rows="10" v-model="text"></textarea>
+    </div>
+    <div class="form-group">
+      <button @click="generatePDF()">Generate PDF</button>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
