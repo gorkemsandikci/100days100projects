@@ -15,9 +15,7 @@
 
 - I've created some rules for myself that I don't want to enforce on anyone, but feel free to do the same if you want!
 
-- If I can't complete the project for that day, I will add $5 to my bank account. At the end of 100 days, I will distribute all the money in the bank account to 5 people who follow me.
-
-- Adding a little bit of motivation for myself!
+- If I can't complete the project for that day, I will add $5 to my bank account. At the end of 100 days, I will spend all the money for stray animals.
 
 - In this post you'll be able to find a link to all of the projects that I'm going to create
 
@@ -38,7 +36,6 @@
 # Benim için kurallar
 
 - Kendime, kimseye uygulamak istemediğim bazı kurallar oluşturdum ama isterseniz aynısını yapmaktan çekinmeyin!
-- O gün için projeyi tamamlayamazsam banka hesabına 5$ ekleyeceğim. 100 gün sonunda banka hesabında biriken tüm parayı beni takip eden 5 kişiye dağıtacağım.
-- Kendime biraz motivasyon katıyorum!
+- O gün için projeyi tamamlayamazsam banka hesabına 5$ ekleyeceğim. 100 gün sonunda banka hesabında biriken tüm sokak hayvanları için harcayacağım.
 - Bu gönderide, oluşturacağım tüm projelere ait bir bağlantı bulabileceksiniz
-- Benimle birlikte meydan okumaya katılmak isteyen herkes davetlidir! İlerlemenizi paylaşmak için gelebileceğiniz veya 100 gün boyunca herhangi bir yardıma ihtiyacınız olursa discord kullanıcı adı #gorkemsandikci. 
+- Benimle birlikte meydan okumaya katılmak isteyen herkes davetlidir! İlerlemenizi paylaşmak için gelebileceğiniz veya 100 gün boyunca herhangi bir yardıma ihtiyacınız olursa discord kullanıcı adı #gorkemsandikci
