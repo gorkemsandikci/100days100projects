@@ -12,7 +12,7 @@ new Vue({
         body.style.color = this.darkMode ? '#ffffff' : '#000000';
       },
       async fetchWeatherData() {
-        const apiKey = '70ee55e3f0c112eb234513cc3e794699';
+        const apiKey = config.API_KEY;
         const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=istanbul&units=metric&appid=${apiKey}`);
         const data = await response.json();
         this.weatherData = data;
