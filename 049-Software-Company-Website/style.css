@@ -1,0 +1,37 @@
+/* Stil dosyası için siyah tema tanımlamaları */
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #000;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.navbar-dark .navbar-toggler-icon:focus {
+    background-color: #fff;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+#intro-section {
+    height: 100vh;
+    background: url('my-section.jpg') center/cover no-repeat; 
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#intro-content {
+    background: rgba(0, 0, 0, 0.6); 
+    padding: 20px;
+    border-radius: 5px;
+}
