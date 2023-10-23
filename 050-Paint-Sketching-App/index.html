@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketching App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <div class="controls">
+            <label for="colorPicker">Çizgi Rengi: </label>
+            <input type="color" id="colorPicker" v-model="lineColor">
+            <label for="lineWidth">Çizgi Kalınlığı: </label>
+            <input type="range" id="lineWidth" min="1" max="10" v-model="lineWidth">
+        </div>
+        <canvas @mousedown="startDrawing" @mousemove="draw" @mouseup="stopDrawing" ref="canvas"></canvas>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
