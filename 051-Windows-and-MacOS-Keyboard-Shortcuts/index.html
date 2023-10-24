@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard Shortcuts</title>
+</head>
+<body>
+    <div id="app">
+        <button @click="showWindowsShortcuts">Windows Shortcuts</button>
+        <button @click="showMacShortcuts">Mac Shortcuts</button>
+        <ul>
+            <li v-for="shortcut in shortcuts" :key="shortcut.id">{{ shortcut.key }}: {{ shortcut.description }}</li>
+        </ul>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
