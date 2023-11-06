@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app" :class="{ 'dark-mode': isDarkMode }">
+        <button @click="toggleDarkMode">Toggle Dark Mode</button>
+        <h1>Number Guessing Game</h1>
+        <p>Guess a number between 1 and 100:</p>
+        <input type="number" v-model="guess" @keyup.enter="checkGuess">
+        <button @click="checkGuess">Submit Guess</button>
+        <p class="alert" v-if="message">{{ message }}</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>

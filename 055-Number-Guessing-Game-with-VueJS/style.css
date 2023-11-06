@@ -1,0 +1,71 @@
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f7f7f7;
+    color: #333; /* Default text color */
+  }
+
+  #app {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #333; /* Default text color */
+    transition: background-color 0.5s, color 0.5s; /* Add transition for smoother mode change */
+  }
+
+  /* Light mode styles */
+
+  h1, p {
+    color: #333; /* Default text color */
+  }
+
+  input[type="number"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333; /* Default text color */
+  }
+
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  p.alert {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #d9534f;
+  }
+
+  /* Dark mode styles */
+
+  #app.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+
+  #app.dark-mode h1 {
+    color: #fff;
+  }
+
+  #app.dark-mode p {
+    color: #fff;
+  }
+
+  #app.dark-mode input[type="number"] {
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #666;
+  }
