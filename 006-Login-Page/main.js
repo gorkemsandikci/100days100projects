@@ -6,11 +6,10 @@ const app = new Vue({
     },
     methods: {
       login() {
-        // Kullanıcı adı ve şifreyi burada doğrulayabilirsiniz
-        if (this.username === 'kullanici' && this.password === 'sifre') {
-          alert('Giriş başarılı!');
+        if (this.username === 'username' && this.password === 'password') {
+          alert('Logged in!');
         } else {
-          alert('Kullanıcı adı veya şifre hatalı!');
+          alert('Username or password wrong!');
         }
       }
     }

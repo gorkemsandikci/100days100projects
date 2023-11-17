@@ -1,92 +1,92 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #1a1a1a;
-  }
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a;
+}
 
-  nav {
+nav {
+  background-color: #282828;
+  color: #fff;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-icon span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.dark-mode .nav-links li a {
+  color: #000; /* Karanlık modda link rengini değiştirdik */
+}
+
+.dark-mode {
+  background-color: #1a1a1a; /* Karanlık modda arka plan rengini değiştirdik */
+  color: #fff;
+}
+
+.dark-mode button {
+  background-color: #fff; /* Karanlık modda düğme rengini değiştirdik */
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
     background-color: #282828;
-    color: #fff;
-    padding: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   }
 
-  .navbar-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
+  .nav-links li {
+    margin-left: 0;
   }
 
   .menu-icon {
-    display: none;
-    cursor: pointer;
-  }
-
-  .menu-icon span {
     display: block;
-    width: 25px;
-    height: 3px;
-    background-color: #fff;
-    margin: 5px;
   }
 
-  .nav-links {
+  nav.mobile-nav-open .nav-links {
     display: flex;
-    list-style: none;
   }
-
-  .nav-links li {
-    margin-left: 20px;
-  }
-
-  .nav-links li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-  }
-
-  .dark-mode .nav-links li a {
-    color: #000; /* Karanlık modda link rengini değiştirdik */
-  }
-
-  .dark-mode {
-    background-color: #1a1a1a; /* Karanlık modda arka plan rengini değiştirdik */
-    color: #fff;
-  }
-
-  .dark-mode button {
-    background-color: #fff; /* Karanlık modda düğme rengini değiştirdik */
-    color: #000;
-  }
-
-  @media (max-width: 768px) {
-    .nav-links {
-      display: none;
-      flex-direction: column;
-      position: absolute;
-      top: 60px;
-      left: 0;
-      width: 100%;
-      background-color: #282828;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    }
-
-    .nav-links li {
-      margin-left: 0;
-    }
-
-    .menu-icon {
-      display: block;
-    }
-
-    nav.mobile-nav-open .nav-links {
-      display: flex;
-    }
-  }
+}

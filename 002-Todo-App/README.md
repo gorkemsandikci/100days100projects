@@ -1,5 +1,6 @@
-# Todo App with Vue.js
+# Day #2
 
+### Todo App with Vue.js
 * [X] Create index.html
 * [X] Add Vue.js to index.html
 * [X] Create a Vue instance in app.js
@@ -16,3 +17,8 @@
   * [X] Show a line through the todo text
 * [X] Add a button to delete a todo
 * [X] Add a button to mark all todos as done
+
+# Screenshot
+Here we have project screenshot :
+
+![screenshot](screenshot.jpeg)

@@ -1,13 +1,21 @@
-    .accordion-header {
-        cursor: pointer;
-        background-color: #303030;
-        padding: 10px;
-      }
-      .accordion-content {
-        display: none;
-        background-color: #303030;
-        padding: 10px;
-      }
-      .show-content {
-        display: flex;
-      }
+body {
+  background-color: #333;
+  color: white;
+}
+
+.accordion-header {
+  cursor: pointer;
+  background-color: #303030;
+  border: solid 1px whitesmoke;
+  padding: 10px;
+}
+
+.accordion-content {
+  display: none;
+  background-color: #303030;
+  padding: 10px;
+}
+
+.show-content {
+  display: flex;
+}
