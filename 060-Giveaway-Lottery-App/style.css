@@ -1,0 +1,28 @@
+body {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.lottery-text {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.rotate {
+    animation: rotate 3s linear infinite;
+}
+
+#input-container {
+    margin-bottom: 20px;
+}
+
+#lottery-image {
+    margin-bottom: 30px;
+}
