@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie List</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .drag-over {
+            border: 2px dashed #333;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+</head>
+<body>
+
+<div id="app">
+    <h1>Movie List</h1>
+    <ul @dragover.prevent @drop="dropHandler">
+        <li v-for="(movie, index) in movies" :key="index" class="movie-card" 
+            draggable="true" @dragstart="startDrag(index)" @dragend="stopDrag">
+            <span class="movie-title">{{ movie.title }}</span>
+            <span class="movie-rating">{{ movie.rating }}</span>
+        </li>
+    </ul>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
