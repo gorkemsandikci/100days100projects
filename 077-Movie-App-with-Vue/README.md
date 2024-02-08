@@ -1,8 +1,8 @@
 # Day #77 - Movie App with VUE
 
-![Homepage](screenshot-1.png)
-![Search List](screenshot-2.png)
-![Detail Page](screenshot-3.png)
+![Homepage](screenshot-1.jpg)
+![Search List](screenshot-2.jpg)
+![Detail Page](screenshot-3.jpg)
 
 ## Project Overview
 
