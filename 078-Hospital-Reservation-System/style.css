@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+form {
+    border: 1px solid #777;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #444;
+}
+form label {
+    font-weight: bold;
+}
+form input[type="text"], form input[type="email"], form input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #777;
+    background-color: #555;
+    color: #fff;
+}
+.times {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.times button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #4CAF50;
+    color: white;
+}
+.times button:hover {
+    background-color: #45a049;
+}
+.times button.selected {
+    background-color: #45a049;
+}
+.times button.disabled {
+    background-color: #FFEBEE; /* Background color for reserved times */
+    cursor: not-allowed;
+}
+form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+}
+form button[type="submit"]:hover {
+    background-color: #45a049;
+}
