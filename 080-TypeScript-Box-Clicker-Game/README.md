@@ -1,4 +1,4 @@
-# Day #79 - Dino Run Game Clone
+# Day #80 - TypeScript Box Clicker Game
 
 ![Project Screenshot](screenshot-1.png)
 ![Project Screenshot](screenshot-2.png)
