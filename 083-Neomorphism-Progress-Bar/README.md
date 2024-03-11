@@ -21,7 +21,7 @@ This project aims to create a neomorphism-style progress bar using HTML, CSS, an
 Development Environment Setup
 1. Clone this repository:
 ```sh
-git clone https://github.com/username/neomorphism-progress-bar.git
+git clone https://github.com/gorkemsandikci/100days100projects/tree/main/083-Neomorphism-Progress-Bar
 ```
 2. Navigate to the project directory:
 ```sh
