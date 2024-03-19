@@ -1,0 +1,77 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+	<meta charset="UTF-8" /> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+	<title>Resume Creator</title> 
+	<link rel="stylesheet" href="style.css" /> 
+</head> 
+<body> 
+	<section class="resume-builder"> 
+		<div class="container"> 
+			<h1>Resume Creator</h1> 
+			<div class="resume_container"> 
+				<form class="inputField"> 
+                    <label>Your Name:</label>
+					<input type="text"
+						name="name"
+						title="Enter Your Name" /> 
+                    <label>Title/Sub Heading:</label>
+					<input type="text"
+						name="title"
+						title="Enter Title/Sub Heading" /> 
+                    <label>Work Experience:</label>
+					<textarea name="work_experience"
+							cols="40" rows="3"
+							title="Enter Your Work Experience"> 
+					</textarea> 
+                    <label>Academic Details:</label>
+					<textarea name="academic_details"
+							cols="40" rows="3"
+							title="Enter Your Academic Details"> 
+					</textarea> 
+                    <label>Objective:</label>
+					<input type="text"
+						title="Enter Your Objective"
+						name="objective" /> 
+                    <label>Skills:</label>
+					<textarea name="skills"
+							title="Enter Your Skills"
+							cols="40"
+							rows="3"> 
+					</textarea> 
+                    <label>Projects:</label>
+					<textarea name="projects"
+							title="Enter Your Projects"
+							cols="40"
+							rows="3"> 
+					</textarea> 
+                    <label>Achievements:</label>
+					<textarea name="achievements"
+							cols="40" rows="3"
+							title="Enter Your Achievements"> 
+					</textarea> 
+                    <label>Contact Information:</label>
+					<textarea name="contact"
+							cols="40" rows="3"
+							title="Enter Your Contact Information"> 
+					</textarea> 
+				</form> 
+			</div> 
+			<p class="tip"> 
+				**You can use markup in the text area for text decoration** 
+			</p> 
+			<p class="credit"> Created by <a href= "https://github.com/gorkemsandikci" target="_blank"> gorkem </a> </p> 
+		</div> 
+	</section> 
+
+	<div class="output_container"></div> 
+
+	<button onclick="hide()"> 
+		Generate / Edit 
+	</button> 
+
+	<script src="main.js"></script> 
+</body> 
+</html>
