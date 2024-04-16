@@ -1,20 +1,16 @@
-# Day #93 - Parallax Scrolling Effect
+# Day #94 - Wikipedia Clone
 
 ![Project Screenshot](screenshot.png)
 
 ## Project Overview
-This project contains an example website created using the parallax scrolling effect.
+
+This project aims to create a platform similar to Wikipedia. Our project is open source and community-driven, meaning it aims to provide an environment where anyone can contribute. The project runs on [operating system, language, etc.].
 
 ## Features
 
-- Parallax scrolling effect implemented using JavaScript.
-- Responsive design for mobile and desktop browsers.
-- Smooth scrolling animations.
-
-## How to Use
-
-1. Clone the repository to your local machine.
-2. Open the index.html file in a web browser.
+- **User-friendly Interface:** Our platform offers a user-friendly interface, making it easy for users to navigate and contribute.
+- **Search Functionality:** Users can easily search for articles using keywords, helping them find relevant information quickly.
+- **Mobile Responsiveness:** The platform is responsive and works well on mobile devices, allowing users to contribute on the go.
 
 ## Technologies Used
 - HTML
