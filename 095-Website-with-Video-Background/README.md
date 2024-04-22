@@ -4,7 +4,7 @@ This project is a simple website template with a video background, created using
 
 ## Preview
 
-![Project Screenrecord](screenrecorcd.gif)
+![Project Screenrecord](screenrecord.gif)
 
 ## Features
 
