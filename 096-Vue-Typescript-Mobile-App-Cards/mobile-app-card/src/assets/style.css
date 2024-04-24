@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@300;400&display=swap");
+
+.background-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-image {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.content-container {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%);
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: "Montserrat", sans-serif;
+}
+
+.content-container h1 {
+  margin-bottom: 0.5em;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+.content-container p {
+  margin-bottom: 1em;
+  font-family: "Montserrat", sans-serif;
+}
+
+.content-container h1 {
+  margin-bottom: 0.5em;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  font-size: 3em;
+}
+
+.content-container p {
+  margin-bottom: 1em;
+  font-size: 1.5em;
+}
+
+.transparent-button {
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.171);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1em;
+}
