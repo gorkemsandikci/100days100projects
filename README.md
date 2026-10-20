@@ -1,6 +1,8 @@
 
 # 100 Projects in 100 Days
 
+**Browse all projects with live demos: [gorkemnet.com/challenges/js](https://gorkemnet.com/challenges/js/)**
+
 100 Projects - 100 Days it's a classic challenge I'm going to take (and you can join too) starting today (26th July 2023) that it's meant to improve my programming skills by building projects.
 
 # Rules
@@ -17,7 +19,7 @@
 
 - If I can't complete the project for that day, I will add $5 to my bank account. At the end of 100 days, I will spend all the money for stray animals.
 
-- In this post you'll be able to find a link to all of the projects that I'm going to create
+- All projects are listed below and on the [showcase page](https://gorkemnet.com/challenges/js/) (day 100)
 
 - Anyone is welcomed to join the challenge alongside me! I'm going to be available on discord (#gorkemsandikci) where you can come to share your progress or if you need any help along the way.
 
