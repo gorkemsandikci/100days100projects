@@ -1,0 +1,1215 @@
+{
+  "id": "js",
+  "title": "100 Days of JavaScript",
+  "subtitle": "One project a day, from 26 July 2023: vanilla JS, Vue, React, TypeScript, Three.js and Node.js.",
+  "repo": "https://github.com/gorkemsandikci/100days100projects",
+  "projects": [
+    {
+      "day": 1,
+      "folder": "001-Project-Page",
+      "title": "Project Page",
+      "description": "First page of the challenge, a Vue 3 + TypeScript app set up with Vite.",
+      "tech": [
+        "Vue",
+        "TypeScript",
+        "Vite"
+      ],
+      "demo": "",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/001-Project-Page",
+      "image": ""
+    },
+    {
+      "day": 2,
+      "folder": "002-Todo-App",
+      "title": "Todo App with Vue.js",
+      "description": "",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/002-Todo-App/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/002-Todo-App",
+      "image": "https://gorkemsandikci.github.io/100days100projects/002-Todo-App/screenshot.jpeg"
+    },
+    {
+      "day": 3,
+      "folder": "003-API-Usage",
+      "title": "API Usage",
+      "description": "API Usage Example with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/003-API-Usage/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/003-API-Usage",
+      "image": "https://gorkemsandikci.github.io/100days100projects/003-API-Usage/screenshot.jpeg"
+    },
+    {
+      "day": 4,
+      "folder": "004-Accordeon-Example",
+      "title": "Accordeon Example",
+      "description": "Accordeon Example with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/004-Accordeon-Example/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/004-Accordeon-Example",
+      "image": "https://gorkemsandikci.github.io/100days100projects/004-Accordeon-Example/screenshot.jpeg"
+    },
+    {
+      "day": 5,
+      "folder": "005-Slider-Pack",
+      "title": "Slider Pack",
+      "description": "Slider Pack with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/005-Slider-Pack/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/005-Slider-Pack",
+      "image": "https://gorkemsandikci.github.io/100days100projects/005-Slider-Pack/image.jpg"
+    },
+    {
+      "day": 6,
+      "folder": "006-Login-Page",
+      "title": "Login Page",
+      "description": "Login Page with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/006-Login-Page/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/006-Login-Page",
+      "image": "https://gorkemsandikci.github.io/100days100projects/006-Login-Page/screenshot.jpeg"
+    },
+    {
+      "day": 7,
+      "folder": "007-Navbar-Pack",
+      "title": "Navbar Pack",
+      "description": "Navbar with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/007-Navbar-Pack/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/007-Navbar-Pack",
+      "image": "https://gorkemsandikci.github.io/100days100projects/007-Navbar-Pack/screenshot-1.jpeg"
+    },
+    {
+      "day": 8,
+      "folder": "008-One-Page-Website-With-Sections",
+      "title": "One Page Website with Sections",
+      "description": "One page website and sections with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/008-One-Page-Website-With-Sections/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/008-One-Page-Website-With-Sections",
+      "image": "https://gorkemsandikci.github.io/100days100projects/008-One-Page-Website-With-Sections/screenshot.jpeg"
+    },
+    {
+      "day": 9,
+      "folder": "009-Survey-Form",
+      "title": "Survey Form",
+      "description": "Survey Form with Vue JS",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/009-Survey-Form/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/009-Survey-Form",
+      "image": ""
+    },
+    {
+      "day": 10,
+      "folder": "010-Calculator",
+      "title": "Calculator",
+      "description": "Calculator with Vue JS",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/010-Calculator/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/010-Calculator",
+      "image": "https://gorkemsandikci.github.io/100days100projects/010-Calculator/screenshot.png"
+    },
+    {
+      "day": 11,
+      "folder": "011-Dynamic-Background",
+      "title": "Dynamic Background",
+      "description": "Dynamic backgroun with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/011-Dynamic-Background/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/011-Dynamic-Background",
+      "image": "https://gorkemsandikci.github.io/100days100projects/011-Dynamic-Background/screenshot-1.png"
+    },
+    {
+      "day": 12,
+      "folder": "012-Live-Clock-and-Date",
+      "title": "Live Clock and Date",
+      "description": "Live Clock and Date with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/012-Live-Clock-and-Date/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/012-Live-Clock-and-Date",
+      "image": "https://gorkemsandikci.github.io/100days100projects/012-Live-Clock-and-Date/screenshot.png"
+    },
+    {
+      "day": 13,
+      "folder": "013-404-Lost-in-Space-Theme",
+      "title": "404 Page - Lost in Space Theme",
+      "description": "Lost in space theme animated 404 Page with Vue JS.",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/013-404-Lost-in-Space-Theme/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/013-404-Lost-in-Space-Theme",
+      "image": "https://gorkemsandikci.github.io/100days100projects/013-404-Lost-in-Space-Theme/screenshot-1.png"
+    },
+    {
+      "day": 14,
+      "folder": "014-Gallery-With-Hover",
+      "title": "Gallery with Hover",
+      "description": "Hovered Gallery with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/014-Gallery-With-Hover/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/014-Gallery-With-Hover",
+      "image": "https://gorkemsandikci.github.io/100days100projects/014-Gallery-With-Hover/screenshot.png"
+    },
+    {
+      "day": 15,
+      "folder": "015-Tic-Tac-Toe-npm-tailwind-vite",
+      "title": "Tic-Tac-Toe",
+      "description": "Tic Tac Toe game with Vue JS.",
+      "tech": [
+        "Vue",
+        "Tailwind"
+      ],
+      "demo": "",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/015-Tic-Tac-Toe-npm-tailwind-vite",
+      "image": "https://gorkemsandikci.github.io/100days100projects/015-Tic-Tac-Toe-npm-tailwind-vite/screenshot.png"
+    },
+    {
+      "day": 16,
+      "folder": "016-Font-Family-Changing-Dynamically",
+      "title": "Font Family Changing Dynamically",
+      "description": "Dynamically changing font family with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/016-Font-Family-Changing-Dynamically/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/016-Font-Family-Changing-Dynamically",
+      "image": ""
+    },
+    {
+      "day": 17,
+      "folder": "017-Random-Recipe",
+      "title": "Random Recipe",
+      "description": "Random Recipe get from API with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/017-Random-Recipe/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/017-Random-Recipe",
+      "image": "https://gorkemsandikci.github.io/100days100projects/017-Random-Recipe/screenshot.png"
+    },
+    {
+      "day": 18,
+      "folder": "018-Profile-Page",
+      "title": "Profile Page",
+      "description": "Basic profile page with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/018-Profile-Page/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/018-Profile-Page",
+      "image": "https://gorkemsandikci.github.io/100days100projects/018-Profile-Page/screenshot.png"
+    },
+    {
+      "day": 19,
+      "folder": "019-Area-and-Volume-Calculator",
+      "title": "Area and Volume Calculator",
+      "description": "Area and Volume Calculator with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/019-Area-and-Volume-Calculator/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/019-Area-and-Volume-Calculator",
+      "image": "https://gorkemsandikci.github.io/100days100projects/019-Area-and-Volume-Calculator/screenshot.png"
+    },
+    {
+      "day": 20,
+      "folder": "020-Pinball-Game-Mechanics",
+      "title": "Pinball Game Mechanics",
+      "description": "Pinball game mechanics with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/020-Pinball-Game-Mechanics/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/020-Pinball-Game-Mechanics",
+      "image": "https://gorkemsandikci.github.io/100days100projects/020-Pinball-Game-Mechanics/screenshot.png"
+    },
+    {
+      "day": 21,
+      "folder": "021-Learning-SQL-Tutorial-Page",
+      "title": "Learning SQL Tutorial Page",
+      "description": "Tutorial page for SQL learning with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/021-Learning-SQL-Tutorial-Page/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/021-Learning-SQL-Tutorial-Page",
+      "image": "https://gorkemsandikci.github.io/100days100projects/021-Learning-SQL-Tutorial-Page/screenshot.png"
+    },
+    {
+      "day": 22,
+      "folder": "022-3D-Object-Viewer",
+      "title": "3D Object Viewer",
+      "description": "Basic 3D Object Viewer with THREE Js.",
+      "tech": [
+        "Three.js"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/022-3D-Object-Viewer/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/022-3D-Object-Viewer",
+      "image": ""
+    },
+    {
+      "day": 23,
+      "folder": "023-Whatsapp-Chat-Component",
+      "title": "Whatsapp Chat Component",
+      "description": "Whatsapp Chat Card with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/023-Whatsapp-Chat-Component/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/023-Whatsapp-Chat-Component",
+      "image": "https://gorkemsandikci.github.io/100days100projects/023-Whatsapp-Chat-Component/screenshot.png"
+    },
+    {
+      "day": 24,
+      "folder": "024-How-is-Weather",
+      "title": "How is Weather",
+      "description": "How is Weather using openweathermap API's with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/024-How-is-Weather/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/024-How-is-Weather",
+      "image": "https://gorkemsandikci.github.io/100days100projects/024-How-is-Weather/screenshot.png"
+    },
+    {
+      "day": 25,
+      "folder": "025-Button-Types",
+      "title": "Button Types",
+      "description": "Hovered button type examples with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/025-Button-Types/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/025-Button-Types",
+      "image": "https://gorkemsandikci.github.io/100days100projects/025-Button-Types/screenshot.png"
+    },
+    {
+      "day": 26,
+      "folder": "026-Task-Manager-App",
+      "title": "Task Manager App",
+      "description": "Task Manager Page with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/026-Task-Manager-App/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/026-Task-Manager-App",
+      "image": "https://gorkemsandikci.github.io/100days100projects/026-Task-Manager-App/screenshot.png"
+    },
+    {
+      "day": 27,
+      "folder": "027-Shopping-Card-App-With-Vue",
+      "title": "Shopping Card App",
+      "description": "Shopping card with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/027-Shopping-Card-App-With-Vue/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/027-Shopping-Card-App-With-Vue",
+      "image": "https://gorkemsandikci.github.io/100days100projects/027-Shopping-Card-App-With-Vue/screenshot.png"
+    },
+    {
+      "day": 28,
+      "folder": "028-Calendar-Selector-with-Vue",
+      "title": "Calendar Selector",
+      "description": "Calendar selector with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/028-Calendar-Selector-with-Vue/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/028-Calendar-Selector-with-Vue",
+      "image": "https://gorkemsandikci.github.io/100days100projects/028-Calendar-Selector-with-Vue/screenshot.png"
+    },
+    {
+      "day": 29,
+      "folder": "029-Admin-Panel-Product-Add-Page",
+      "title": "Admin Panel Product Add Page",
+      "description": "Admin panel adding product with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/029-Admin-Panel-Product-Add-Page/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/029-Admin-Panel-Product-Add-Page",
+      "image": "https://gorkemsandikci.github.io/100days100projects/029-Admin-Panel-Product-Add-Page/screenshot.png"
+    },
+    {
+      "day": 30,
+      "folder": "030-Admin-Panel-Dashboard-Design-with-Vue",
+      "title": "Admin Panel Dashboard Design",
+      "description": "Admin panel dashboard page with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/030-Admin-Panel-Dashboard-Design-with-Vue/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/030-Admin-Panel-Dashboard-Design-with-Vue",
+      "image": "https://gorkemsandikci.github.io/100days100projects/030-Admin-Panel-Dashboard-Design-with-Vue/screenshot.png"
+    },
+    {
+      "day": 31,
+      "folder": "031-Snake-Game-with-Vue",
+      "title": "Snake Game",
+      "description": "Classic Snake Game with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/031-Snake-Game-with-Vue/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/031-Snake-Game-with-Vue",
+      "image": "https://gorkemsandikci.github.io/100days100projects/031-Snake-Game-with-Vue/screenshot.jpeg"
+    },
+    {
+      "day": 32,
+      "folder": "032-Car-Rental-Website",
+      "title": "Car Rental Website",
+      "description": "Car rental website with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/032-Car-Rental-Website/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/032-Car-Rental-Website",
+      "image": "https://gorkemsandikci.github.io/100days100projects/032-Car-Rental-Website/screenshot.png"
+    },
+    {
+      "day": 33,
+      "folder": "033-Rich-Text-Editor-With-VueJS",
+      "title": "Rich Text Editor",
+      "description": "Rich text editor with Vue JS and Quill JS Snow theme.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/033-Rich-Text-Editor-With-VueJS/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/033-Rich-Text-Editor-With-VueJS",
+      "image": "https://gorkemsandikci.github.io/100days100projects/033-Rich-Text-Editor-With-VueJS/screenshot-1.png"
+    },
+    {
+      "day": 34,
+      "folder": "034-Category-Management-Page",
+      "title": "Category Management Page",
+      "description": "Category management page with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/034-Category-Management-Page/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/034-Category-Management-Page",
+      "image": "https://gorkemsandikci.github.io/100days100projects/034-Category-Management-Page/screenshot.png"
+    },
+    {
+      "day": 35,
+      "folder": "035-Quiz-App-With-Vue-JS-npm",
+      "title": "Quiz App",
+      "description": "Quiz App with Vue 3 + Vite.",
+      "tech": [
+        "Vue",
+        "Vite"
+      ],
+      "demo": "",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/035-Quiz-App-With-Vue-JS-npm",
+      "image": "https://gorkemsandikci.github.io/100days100projects/035-Quiz-App-With-Vue-JS-npm/screenshot-1.png"
+    },
+    {
+      "day": 36,
+      "folder": "036-Country-City-District-Dropdown-with-AJAX",
+      "title": "Country City District Dropdown",
+      "description": "Country, city and district dropdown using AJAX with Vue JS.",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/036-Country-City-District-Dropdown-with-AJAX/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/036-Country-City-District-Dropdown-with-AJAX",
+      "image": "https://gorkemsandikci.github.io/100days100projects/036-Country-City-District-Dropdown-with-AJAX/screenshot.png"
+    },
+    {
+      "day": 37,
+      "folder": "037-Table-Hockey-Game-With-JS",
+      "title": "Table Hockey Game",
+      "description": "Table hockey game with Javascript.",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/037-Table-Hockey-Game-With-JS/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/037-Table-Hockey-Game-With-JS",
+      "image": "https://gorkemsandikci.github.io/100days100projects/037-Table-Hockey-Game-With-JS/screenshot.png"
+    },
+    {
+      "day": 38,
+      "folder": "038-Learning-JavaScript-Tutorial-Page",
+      "title": "Javascript Tutorial",
+      "description": "Javascript tutorial page with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/038-Learning-JavaScript-Tutorial-Page/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/038-Learning-JavaScript-Tutorial-Page",
+      "image": "https://gorkemsandikci.github.io/100days100projects/038-Learning-JavaScript-Tutorial-Page/screenshot.png"
+    },
+    {
+      "day": 39,
+      "folder": "039-Weight-Tracker-App-with-Vue",
+      "title": "Weight Tracker App",
+      "description": "Weight Tracker App with Vue 3 + Vite.",
+      "tech": [
+        "Vue",
+        "Vite"
+      ],
+      "demo": "",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/039-Weight-Tracker-App-with-Vue",
+      "image": "https://gorkemsandikci.github.io/100days100projects/039-Weight-Tracker-App-with-Vue/screenshot.png"
+    },
+    {
+      "day": 40,
+      "folder": "040-Smooth-Scroll-Back-To-Top",
+      "title": "Smooth Scroll Back to Top",
+      "description": "Smooth scroll back to top button with Vue Js.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/040-Smooth-Scroll-Back-To-Top/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/040-Smooth-Scroll-Back-To-Top",
+      "image": "https://gorkemsandikci.github.io/100days100projects/040-Smooth-Scroll-Back-To-Top/screenshot-1.png"
+    },
+    {
+      "day": 41,
+      "folder": "041-Statistical-Calculator-App",
+      "title": "Statistical Calculator App",
+      "description": "Statistical calculator app with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/041-Statistical-Calculator-App/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/041-Statistical-Calculator-App",
+      "image": "https://gorkemsandikci.github.io/100days100projects/041-Statistical-Calculator-App/screenshot.png"
+    },
+    {
+      "day": 42,
+      "folder": "042-Travel-Planner-Application",
+      "title": "Travel Planner",
+      "description": "Travel planner app with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/042-Travel-Planner-Application/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/042-Travel-Planner-Application",
+      "image": "https://gorkemsandikci.github.io/100days100projects/042-Travel-Planner-Application/screenshot.png"
+    },
+    {
+      "day": 43,
+      "folder": "043-Financial-News-Flowing-Currency-Exchange-with-Vue",
+      "title": "Financial News Flowing Currency Exchange",
+      "description": "Financial news page with flowing currency exchange with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/043-Financial-News-Flowing-Currency-Exchange-with-Vue/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/043-Financial-News-Flowing-Currency-Exchange-with-Vue",
+      "image": "https://gorkemsandikci.github.io/100days100projects/043-Financial-News-Flowing-Currency-Exchange-with-Vue/screenshot.png"
+    },
+    {
+      "day": 44,
+      "folder": "044-Text-to-PDF-with-VueJS",
+      "title": "Text to PDF",
+      "description": "Text to PDF application with Vue JS",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/044-Text-to-PDF-with-VueJS/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/044-Text-to-PDF-with-VueJS",
+      "image": "https://gorkemsandikci.github.io/100days100projects/044-Text-to-PDF-with-VueJS/screenshot.png"
+    },
+    {
+      "day": 45,
+      "folder": "045-Alertify-JS-Usage",
+      "title": "Alertify Usage",
+      "description": "Alertify JS CDN Usage.",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/045-Alertify-JS-Usage/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/045-Alertify-JS-Usage",
+      "image": "https://gorkemsandikci.github.io/100days100projects/045-Alertify-JS-Usage/screenshot.png"
+    },
+    {
+      "day": 46,
+      "folder": "046-Json-Beautifier",
+      "title": "JSON Beautifier",
+      "description": "JSON Beautifier page with JavaScript.",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/046-Json-Beautifier/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/046-Json-Beautifier",
+      "image": "https://gorkemsandikci.github.io/100days100projects/046-Json-Beautifier/screenshot.png"
+    },
+    {
+      "day": 47,
+      "folder": "047-CCNA-Training-Topics-and-Descriptions",
+      "title": "CCNA Training Topics",
+      "description": "CCNA Training Topics page with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/047-CCNA-Training-Topics-and-Descriptions/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/047-CCNA-Training-Topics-and-Descriptions",
+      "image": "https://gorkemsandikci.github.io/100days100projects/047-CCNA-Training-Topics-and-Descriptions/screenshot.png"
+    },
+    {
+      "day": 48,
+      "folder": "048-Live-Chat-Support",
+      "title": "Live Chat Support",
+      "description": "Live Chat Assistant with JavaScript.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/048-Live-Chat-Support/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/048-Live-Chat-Support",
+      "image": "https://gorkemsandikci.github.io/100days100projects/048-Live-Chat-Support/screenshot-1.png"
+    },
+    {
+      "day": 49,
+      "folder": "049-Software-Company-Website",
+      "title": "Software Company Website",
+      "description": "Software Company Website example using Bootstrap.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/049-Software-Company-Website/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/049-Software-Company-Website",
+      "image": "https://gorkemsandikci.github.io/100days100projects/049-Software-Company-Website/screenshot.png"
+    },
+    {
+      "day": 50,
+      "folder": "050-Paint-Sketching-App",
+      "title": "Paint Sketching App",
+      "description": "Paint Sketching application with using Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/050-Paint-Sketching-App/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/050-Paint-Sketching-App",
+      "image": "https://gorkemsandikci.github.io/100days100projects/050-Paint-Sketching-App/screenshot.png"
+    },
+    {
+      "day": 51,
+      "folder": "051-Windows-and-MacOS-Keyboard-Shortcuts",
+      "title": "Windows and MacOS Keyboard Shortcuts",
+      "description": "Keyboard shortcuts app with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/051-Windows-and-MacOS-Keyboard-Shortcuts/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/051-Windows-and-MacOS-Keyboard-Shortcuts",
+      "image": ""
+    },
+    {
+      "day": 52,
+      "folder": "052-Projects-Portfolio",
+      "title": "Projects Portfolio",
+      "description": "Projects Portfolio component with using Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/052-Projects-Portfolio/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/052-Projects-Portfolio",
+      "image": "https://gorkemsandikci.github.io/100days100projects/052-Projects-Portfolio/screenshot.png"
+    },
+    {
+      "day": 53,
+      "folder": "053-Password-Generator",
+      "title": "Password Generator",
+      "description": "Password generator with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/053-Password-Generator/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/053-Password-Generator",
+      "image": "https://gorkemsandikci.github.io/100days100projects/053-Password-Generator/screenshot.png"
+    },
+    {
+      "day": 54,
+      "folder": "054-QR-Code-Generator",
+      "title": "QR Code Generator",
+      "description": "QR Code Generator with JavaScript using qrserver.com API service.",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/054-QR-Code-Generator/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/054-QR-Code-Generator",
+      "image": "https://gorkemsandikci.github.io/100days100projects/054-QR-Code-Generator/screenshot.png"
+    },
+    {
+      "day": 55,
+      "folder": "055-Number-Guessing-Game-with-VueJS",
+      "title": "Number Guessing Game",
+      "description": "Number Guessing Game with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/055-Number-Guessing-Game-with-VueJS/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/055-Number-Guessing-Game-with-VueJS",
+      "image": "https://gorkemsandikci.github.io/100days100projects/055-Number-Guessing-Game-with-VueJS/screenshot.png"
+    },
+    {
+      "day": 56,
+      "folder": "056-Get-News-Form",
+      "title": "Get News Form",
+      "description": "Get content from xpath form template with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/056-Get-News-Form/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/056-Get-News-Form",
+      "image": "https://gorkemsandikci.github.io/100days100projects/056-Get-News-Form/screenshot.png"
+    },
+    {
+      "day": 57,
+      "folder": "057-Zoom-Meeting-Join-Page",
+      "title": "Zoom Meeting Join Page",
+      "description": "Zoom Meeting Join Page template with using Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/057-Zoom-Meeting-Join-Page/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/057-Zoom-Meeting-Join-Page",
+      "image": "https://gorkemsandikci.github.io/100days100projects/057-Zoom-Meeting-Join-Page/screenshot.png"
+    },
+    {
+      "day": 58,
+      "folder": "058-Noise-Generator",
+      "title": "Noise Generator",
+      "description": "Noise Generator with using JavaScript.",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/058-Noise-Generator/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/058-Noise-Generator",
+      "image": "https://gorkemsandikci.github.io/100days100projects/058-Noise-Generator/screenshot.png"
+    },
+    {
+      "day": 59,
+      "folder": "059-Url-Shortner",
+      "title": "Url Shortner",
+      "description": "With JavaScript and used TinyURL's API for shortens a long web address. It creates a link in the form of letters and numbers that look nothing like the original.",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/059-Url-Shortner/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/059-Url-Shortner",
+      "image": "https://gorkemsandikci.github.io/100days100projects/059-Url-Shortner/screenshot.jpeg"
+    },
+    {
+      "day": 60,
+      "folder": "060-Giveaway-Lottery-App",
+      "title": "Giveaway Lottery App",
+      "description": "Lottery for giveaway app with Vue JS.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/060-Giveaway-Lottery-App/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/060-Giveaway-Lottery-App",
+      "image": "https://gorkemsandikci.github.io/100days100projects/060-Giveaway-Lottery-App/screenshot.png"
+    },
+    {
+      "day": 61,
+      "folder": "061-Custom-Cursors",
+      "title": "Custom Cursor App",
+      "description": "Custom Cursor App with HTML, CSS and javascript.",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/061-Custom-Cursors/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/061-Custom-Cursors",
+      "image": "https://gorkemsandikci.github.io/100days100projects/061-Custom-Cursors/screenshot-1.png"
+    },
+    {
+      "day": 62,
+      "folder": "062-Responsive-Sidebar",
+      "title": "Responsive Sidebar",
+      "description": "Responsive Sidebar App with HTML, CSS and Javascript.",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/062-Responsive-Sidebar/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/062-Responsive-Sidebar",
+      "image": "https://gorkemsandikci.github.io/100days100projects/062-Responsive-Sidebar/screenshot-1.png"
+    },
+    {
+      "day": 63,
+      "folder": "063-Digital-Clock",
+      "title": "Digital Clock",
+      "description": "Digital Clock using JavaScript, HTML and CSS",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/063-Digital-Clock/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/063-Digital-Clock",
+      "image": "https://gorkemsandikci.github.io/100days100projects/063-Digital-Clock/screenshot.png"
+    },
+    {
+      "day": 64,
+      "folder": "064-Password-Strength-Indicator",
+      "title": "Password Strength Indicator",
+      "description": "Password Strength Indicator using JavaScript, HTML and CSS",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/064-Password-Strength-Indicator/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/064-Password-Strength-Indicator",
+      "image": "https://gorkemsandikci.github.io/100days100projects/064-Password-Strength-Indicator/screenshot-1.png"
+    },
+    {
+      "day": 65,
+      "folder": "065-3D-Model-Using-in-Website",
+      "title": "3D Model Using in Website",
+      "description": "In this project adding 3D model to a website using THREE JS, HTML and CSS.",
+      "tech": [
+        "Three.js"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/065-3D-Model-Using-in-Website/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/065-3D-Model-Using-in-Website",
+      "image": "https://gorkemsandikci.github.io/100days100projects/065-3D-Model-Using-in-Website/screenshot-1.png"
+    },
+    {
+      "day": 66,
+      "folder": "066-Card-Animation",
+      "title": "Stunning Animated Card Gallery",
+      "description": "Stunning Animated Card Gallery using CSS and HTML",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/066-Card-Animation/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/066-Card-Animation",
+      "image": "https://gorkemsandikci.github.io/100days100projects/066-Card-Animation/animated-gallery.gif"
+    },
+    {
+      "day": 67,
+      "folder": "067-Animated-Profile-Card",
+      "title": "Animated Profile Card",
+      "description": "Animated profile card using HTML and CSS",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/067-Animated-Profile-Card/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/067-Animated-Profile-Card",
+      "image": "https://gorkemsandikci.github.io/100days100projects/067-Animated-Profile-Card/animated-profile-card.gif"
+    },
+    {
+      "day": 68,
+      "folder": "068-Hovered-Speech-to-Text",
+      "title": "Vocalizer V1 - Hovered Speech To Text App",
+      "description": "The Vocalizer v1 is a web-based speech synthesis application. Users can choose from different voices, speeds, and pitch options to listen to texts spoken aloud. This…",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/068-Hovered-Speech-to-Text/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/068-Hovered-Speech-to-Text",
+      "image": "https://gorkemsandikci.github.io/100days100projects/068-Hovered-Speech-to-Text/hovered-speech-to-text.gif"
+    },
+    {
+      "day": 69,
+      "folder": "069-XMas-Special-Cards",
+      "title": "Special X-Mas Responsive Cards",
+      "description": "This project showcases a set of responsive cards designed with a Christmas theme. Each card features an engaging holiday image with overlaying text that provides a brief…",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/069-XMas-Special-Cards/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/069-XMas-Special-Cards",
+      "image": "https://gorkemsandikci.github.io/100days100projects/069-XMas-Special-Cards/x-mas-special-responsive-card.gif"
+    },
+    {
+      "day": 70,
+      "folder": "070-Snowfall-Interactive-Cards",
+      "title": "Snowfall Interactive Cards",
+      "description": "Snowfall Interactive Cards is a web project that showcases a series of interactive cards with a snowfall effect. This project is perfect for demonstrating a winter theme with…",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/070-Snowfall-Interactive-Cards/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/070-Snowfall-Interactive-Cards",
+      "image": "https://gorkemsandikci.github.io/100days100projects/070-Snowfall-Interactive-Cards/0.jpg"
+    },
+    {
+      "day": 71,
+      "folder": "071-Text-Reveal-Animation",
+      "title": "Text Reveal Animation with GSAP",
+      "description": "This project showcases a text reveal animation implemented with GSAP (GreenSock Animation Platform), creating an engaging visual effect as the text appears to \"unveil\" itself…",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/071-Text-Reveal-Animation/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/071-Text-Reveal-Animation",
+      "image": "https://gorkemsandikci.github.io/100days100projects/071-Text-Reveal-Animation/hero.jpg"
+    },
+    {
+      "day": 72,
+      "folder": "072-Random-Joke-Generator",
+      "title": "Random Joke Generator",
+      "description": "The application runs in a web browser and is built using HTML, CSS, and JavaScript. Here are the basic steps of how it works:",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/072-Random-Joke-Generator/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/072-Random-Joke-Generator",
+      "image": "https://gorkemsandikci.github.io/100days100projects/072-Random-Joke-Generator/random-joke-generator.png"
+    },
+    {
+      "day": 73,
+      "folder": "073-English-Dictionary",
+      "title": "English Dictionary",
+      "description": "The application runs in a web browser and is built using HTML, CSS, and JavaScript.",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/073-English-Dictionary/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/073-English-Dictionary",
+      "image": "https://gorkemsandikci.github.io/100days100projects/073-English-Dictionary/screenshot.png"
+    },
+    {
+      "day": 74,
+      "folder": "074-Drum-Kit",
+      "title": "Drum Kit",
+      "description": "The application runs in a web browser and is built using HTML, CSS, and JavaScript. It is an interactive drum kit that plays sounds when specific keys on the keyboard are…",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/074-Drum-Kit/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/074-Drum-Kit",
+      "image": "https://gorkemsandikci.github.io/100days100projects/074-Drum-Kit/screenshot.png"
+    },
+    {
+      "day": 75,
+      "folder": "075-Draggable-Movie-List",
+      "title": "Draggable Movie List",
+      "description": "The Draggable Movie List is an interactive web application built using HTML, CSS, and Vue.js. It allows users to manage and customize their movie lists by dragging and dropping…",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/075-Draggable-Movie-List/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/075-Draggable-Movie-List",
+      "image": "https://gorkemsandikci.github.io/100days100projects/075-Draggable-Movie-List/screenshot.png"
+    },
+    {
+      "day": 76,
+      "folder": "076-Scroll-Triggered-Animations",
+      "title": "Animate on Scroll",
+      "description": "Animate on Scroll, is an interactive web application that incorporates scroll-triggered animations. The application is built using HTML, CSS, and JavaScript.",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/076-Scroll-Triggered-Animations/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/076-Scroll-Triggered-Animations",
+      "image": ""
+    },
+    {
+      "day": 77,
+      "folder": "077-Movie-App-with-Vue",
+      "title": "Movie App with VUE",
+      "description": "This project is a simple movie application developed using Vue.js. Users can search for movies, and upon clicking on a movie, they can view more details about it.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/077-Movie-App-with-Vue",
+      "image": "https://gorkemsandikci.github.io/100days100projects/077-Movie-App-with-Vue/screenshot-1.jpg"
+    },
+    {
+      "day": 78,
+      "folder": "078-Hospital-Reservation-System",
+      "title": "Hospital Reservation System",
+      "description": "This project is a simple hospital reservation system where users can book appointments for medical services.",
+      "tech": [
+        "Vue"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/078-Hospital-Reservation-System/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/078-Hospital-Reservation-System",
+      "image": "https://gorkemsandikci.github.io/100days100projects/078-Hospital-Reservation-System/screenshot.png"
+    },
+    {
+      "day": 79,
+      "folder": "079-Dino-Run-Game-Clone",
+      "title": "Dino Run Game Clone",
+      "description": "This project is a clone of the Chrome dinosaur game that appears when the internet connection is lost. It is implemented using HTML, JavaScript, and CSS.",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/079-Dino-Run-Game-Clone/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/079-Dino-Run-Game-Clone",
+      "image": "https://gorkemsandikci.github.io/100days100projects/079-Dino-Run-Game-Clone/screenshot.png"
+    },
+    {
+      "day": 80,
+      "folder": "080-TypeScript-Box-Clicker-Game",
+      "title": "TypeScript Box Clicker Game",
+      "description": "This project is a simple box clicking game that runs in the browser. The game involves clicking on randomly placed boxes to score points. TypeScript is the programming language…",
+      "tech": [
+        "TypeScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/080-TypeScript-Box-Clicker-Game/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/080-TypeScript-Box-Clicker-Game",
+      "image": "https://gorkemsandikci.github.io/100days100projects/080-TypeScript-Box-Clicker-Game/screenshot-1.png"
+    },
+    {
+      "day": 81,
+      "folder": "081-Daily-Quote-Generator",
+      "title": "Quote of the Day",
+      "description": "This project is a simple web application that displays a random quote of the day. Users can click a button to get a new quote or tweet the current quote.",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/081-Daily-Quote-Generator/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/081-Daily-Quote-Generator",
+      "image": "https://gorkemsandikci.github.io/100days100projects/081-Daily-Quote-Generator/screenshot.png"
+    },
+    {
+      "day": 82,
+      "folder": "082-Background-Change-Effect",
+      "title": "Background Change Effect",
+      "description": "This project demonstrates a simple background change effect using JavaScript. When the user hovers over the image, the background color changes dynamically.",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/082-Background-Change-Effect/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/082-Background-Change-Effect",
+      "image": "https://gorkemsandikci.github.io/100days100projects/082-Background-Change-Effect/screenshot.png"
+    },
+    {
+      "day": 83,
+      "folder": "083-Neomorphism-Progress-Bar",
+      "title": "Neomorphism Progress Bar",
+      "description": "This project aims to create a neomorphism-style progress bar using HTML, CSS, and JavaScript.",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/083-Neomorphism-Progress-Bar/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/083-Neomorphism-Progress-Bar",
+      "image": "https://gorkemsandikci.github.io/100days100projects/083-Neomorphism-Progress-Bar/screenshot.png"
+    },
+    {
+      "day": 84,
+      "folder": "084-Cryptocurrency-Website",
+      "title": "Cryptocurrency Prices Website",
+      "description": "This project displays real-time cryptocurrency prices for Bitcoin, Ethereum, and Dogecoin. The data is fetched using the CoinGecko API.",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/084-Cryptocurrency-Website/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/084-Cryptocurrency-Website",
+      "image": "https://gorkemsandikci.github.io/100days100projects/084-Cryptocurrency-Website/screenshot.png"
+    },
+    {
+      "day": 85,
+      "folder": "085-Infinity-Scroll",
+      "title": "Infinity Scroll",
+      "description": "This project continuously loads new images into view when scrolling.",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/085-Infinity-Scroll/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/085-Infinity-Scroll",
+      "image": "https://gorkemsandikci.github.io/100days100projects/085-Infinity-Scroll/screenshot-1.png"
+    },
+    {
+      "day": 86,
+      "folder": "086-Music-Player",
+      "title": "Music Player",
+      "description": "A web music player based on the HTML5 audio element.",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/086-Music-Player/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/086-Music-Player",
+      "image": "https://gorkemsandikci.github.io/100days100projects/086-Music-Player/images/jacinto-1.jpg"
+    },
+    {
+      "day": 87,
+      "folder": "087-NASA-API-Pictures",
+      "title": "NASA API Pictures",
+      "description": "This project continuously loads new pictures and descriptions into view when scrolling from NASA API.",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/087-NASA-API-Pictures/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/087-NASA-API-Pictures",
+      "image": ""
+    },
+    {
+      "day": 88,
+      "folder": "088-Dynamic-Resume-Creator",
+      "title": "Dynamic Resume Creator",
+      "description": "Creating a well-designed and professional resume can be a challenging and time-consuming task for job seekers. Many individuals struggle with formatting, organizing…",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/088-Dynamic-Resume-Creator/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/088-Dynamic-Resume-Creator",
+      "image": "https://gorkemsandikci.github.io/100days100projects/088-Dynamic-Resume-Creator/screenshot-1.png"
+    },
+    {
+      "day": 89,
+      "folder": "089-Lorem-Ipsum-Generator",
+      "title": "Lorem Ipsum Generator",
+      "description": "In this project, we are going to implement a Lorem Ipsum Generator Application through HTML, CSS, and JavaScript. Lorem Ipsum, a placeholder text commonly utilized in the…",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/089-Lorem-Ipsum-Generator/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/089-Lorem-Ipsum-Generator",
+      "image": "https://gorkemsandikci.github.io/100days100projects/089-Lorem-Ipsum-Generator/screenshot.png"
+    },
+    {
+      "day": 90,
+      "folder": "090-Tap-The-Geek",
+      "title": "Tap the Geek",
+      "description": "Tap-the-Geek is a simple game, in which the player has to tap the moving GeeksForGeeks logo as many times as possible to increase their score. It has three levels easy, medium,…",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/090-Tap-The-Geek/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/090-Tap-The-Geek",
+      "image": "https://gorkemsandikci.github.io/100days100projects/090-Tap-The-Geek/screenshot.png"
+    },
+    {
+      "day": 91,
+      "folder": "091-2048-Game",
+      "title": "2048 Game",
+      "description": "This project is a simple implementation of the 2048 game using HTML, CSS, and JavaScript.",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/091-2048-Game/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/091-2048-Game",
+      "image": ""
+    },
+    {
+      "day": 92,
+      "folder": "092-Countdown-Timer",
+      "title": "Countdown Timer",
+      "description": "This is a simple countdown timer created using HTML, CSS, and JavaScript.",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/092-Countdown-Timer/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/092-Countdown-Timer",
+      "image": "https://gorkemsandikci.github.io/100days100projects/092-Countdown-Timer/screenshot.png"
+    },
+    {
+      "day": 93,
+      "folder": "093-Parallax-Scrolling-Effect",
+      "title": "Parallax Scrolling Effect",
+      "description": "This project contains an example website created using the parallax scrolling effect.",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/093-Parallax-Scrolling-Effect/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/093-Parallax-Scrolling-Effect",
+      "image": "https://gorkemsandikci.github.io/100days100projects/093-Parallax-Scrolling-Effect/screenshot.png"
+    },
+    {
+      "day": 94,
+      "folder": "094-Wikipedia-Clone",
+      "title": "Wikipedia Clone",
+      "description": "This project aims to create a platform similar to Wikipedia. Our project is open source and community-driven, meaning it aims to provide an environment where anyone can…",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/094-Wikipedia-Clone/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/094-Wikipedia-Clone",
+      "image": "https://gorkemsandikci.github.io/100days100projects/094-Wikipedia-Clone/screenshot.png"
+    },
+    {
+      "day": 95,
+      "folder": "095-Website-with-Video-Background",
+      "title": "Website with Video Background",
+      "description": "This project is a simple website template with a video background, created using HTML and CSS.",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/095-Website-with-Video-Background/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/095-Website-with-Video-Background",
+      "image": "https://gorkemsandikci.github.io/100days100projects/095-Website-with-Video-Background/screenrecord.gif"
+    },
+    {
+      "day": 96,
+      "folder": "096-Vue-Typescript-Mobile-App-Cards",
+      "title": "Vue & Typescript Mobile App Download Card",
+      "description": "This project showcases a Vue.js component named MobileAppCard that displays a mobile application promotional card with a background image, app title, description, and a button…",
+      "tech": [
+        "Vue",
+        "TypeScript"
+      ],
+      "demo": "",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/096-Vue-Typescript-Mobile-App-Cards",
+      "image": "https://gorkemsandikci.github.io/100days100projects/096-Vue-Typescript-Mobile-App-Cards/screenshot.jpeg"
+    },
+    {
+      "day": 97,
+      "folder": "097-Todo-App-with-React-and-Typescript",
+      "title": "Todo App with React + TypeScript + Vite",
+      "description": "This is a simple todo application built with Vite and TypeScript. It provides a clean user interface to add, list, and toggle the completion state of tasks.",
+      "tech": [
+        "React",
+        "TypeScript"
+      ],
+      "demo": "",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/097-Todo-App-with-React-and-Typescript",
+      "image": "https://gorkemsandikci.github.io/100days100projects/097-Todo-App-with-React-and-Typescript/screenshot.png"
+    },
+    {
+      "day": 98,
+      "folder": "098-iPhone-Emulator",
+      "title": "iPhone Emulator",
+      "description": "This project is a web application that mimics an iPhone screen and frame using CSS. A video plays automatically and loops on the iPhone screen.",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/098-iPhone-Emulator/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/098-iPhone-Emulator",
+      "image": "https://gorkemsandikci.github.io/100days100projects/098-iPhone-Emulator/screenshot.png"
+    },
+    {
+      "day": 99,
+      "folder": "099-RealTime-Drawing-with-NodeJS",
+      "title": "RealTime Drawing Application with NodeJS",
+      "description": "This project is a real-time drawing application built with Node.js, Express.js, and Socket.io. Users can draw on a canvas and see the drawings of other users in real-time.",
+      "tech": [
+        "Node.js"
+      ],
+      "demo": "",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/099-RealTime-Drawing-with-NodeJS",
+      "image": "https://gorkemsandikci.github.io/100days100projects/099-RealTime-Drawing-with-NodeJS/screenshot.png"
+    },
+    {
+      "day": 100,
+      "folder": "100-Challenge-Showcase",
+      "title": "Challenge Showcase",
+      "description": "This page: every project of the challenge with live demos, filters and search.",
+      "tech": [
+        "JavaScript"
+      ],
+      "demo": "https://gorkemsandikci.github.io/100days100projects/100-Challenge-Showcase/",
+      "code": "https://github.com/gorkemsandikci/100days100projects/tree/main/100-Challenge-Showcase",
+      "image": ""
+    }
+  ]
+}

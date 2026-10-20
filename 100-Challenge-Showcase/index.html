@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>100 Days of JavaScript — Gorkem Sandikci</title>
+<meta name="description" content="100 projects in 100 days: vanilla JavaScript, Vue, React, TypeScript, Three.js and Node.js, each with source code and most with a live demo.">
+<meta name="theme-color" content="#0b1220">
+<script>try{var t=localStorage.getItem("gs.theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t;else if(matchMedia("(prefers-color-scheme: light)").matches)document.documentElement.dataset.theme="light"}catch(_){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="https://gorkemnet.com/"><span class="brand-mark">GS</span><span>Gorkem Sandikci</span></a>
+    <div class="top-actions">
+      <a class="link" id="repo-link" href="https://github.com/gorkemsandikci/100days100projects" target="_blank" rel="noopener">GitHub</a>
+      <button class="theme" type="button" id="theme" aria-label="Toggle theme"></button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <p class="eyebrow">Challenge</p>
+    <h1 id="title">100 Days of JavaScript</h1>
+    <p class="lead" id="subtitle"></p>
+    <dl class="stats" id="stats"></dl>
+  </section>
+
+  <section class="controls" aria-label="Filter projects">
+    <input type="search" id="search" placeholder="Search projects" aria-label="Search projects" autocomplete="off">
+    <div class="chips" id="chips" role="group" aria-label="Technology"></div>
+    <label class="toggle"><input type="checkbox" id="demo-only"> Live demo only</label>
+  </section>
+
+  <p class="count" id="count" aria-live="polite"></p>
+  <ol class="grid" id="grid"></ol>
+  <p class="empty" id="empty" hidden>No project matches. Try another search or filter.</p>
+</main>
+
+<footer class="wrap foot">
+  <span>Built as day 100 of the challenge.</span>
+  <a href="https://gorkemnet.com/">gorkemnet.com</a>
+</footer>
+
+<noscript><p class="wrap">This page lists the projects with JavaScript. The full list is also in the <a href="https://github.com/gorkemsandikci/100days100projects#projects">repository README</a>.</p></noscript>
+<script src="app.js" defer></script>
+</body>
+</html>
